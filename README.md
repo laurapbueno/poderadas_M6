@@ -1,2 +1,2 @@
 # poderadas_M6
-Poderadas M[odulo 6 
+Poderadas Modulo 6 
