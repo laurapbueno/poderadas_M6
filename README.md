@@ -1,2 +1,2 @@
 # ponderadas_M6
-Ponderadas Modulo 6 
+Ponderadas Módulo 6 
