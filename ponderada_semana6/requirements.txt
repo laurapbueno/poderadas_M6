@@ -1,0 +1,5 @@
+# Arquivo requirements.txt para o projeto XOR MLP
+# Instalação das dependências necessárias para o projeto
+torch==1.10.0
+torchvision==0.11.1
+torchaudio==0.10.0
