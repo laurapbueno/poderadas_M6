@@ -1,27 +1,12 @@
-# MLP para Problema do XOR
+# Implementação de MLP para o Problema do XOR
 
-Este repositório contém a implementação de um MLP (Multi-Layer Perceptron) para resolver o problema do XOR, utilizando Python e PyTorch.
+Este repositório contém a implementação de um Perceptron Multicamadas (MLP) para resolver o problema do XOR, tanto de forma manual quanto utilizando PyTorch.
 
+## Manual XOR MLP
 
-## Requisitos
+O arquivo `manual_xor_mlp.py` contém a implementação manual de um MLP para o problema do XOR. Ele utiliza a função de ativação sigmoide e atualiza os pesos manualmente.
 
-- Python 3.8-3.11
-- PyTorch 1.10.0
+Para executar o modelo manual, utilize o seguinte comando:
 
-## Instalação
-
-1. Clone esse repositório
-
-2. Instale as dependências usando o pip:
-
-    ```
-    pip install -r requirements.txt
-    ```
-
-# Uso
-
-Para executar o modelo MLP, utilize o seguinte comando:
-
-```
-python xor_mlp.py
-```
+```bash
+python manual_xor_mlp.py
