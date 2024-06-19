@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detecção de Dígitos</title>
+</head>
+<body>
+    <h1>Detecção de Dígitos Manuscritos</h1>
+    <form method="post" enctype="multipart/form-data">
+        <input type="file" name="imagem" accept="image/*">
+        <button type="submit">Enviar</button>
+    </form>
+    {% if previsao_conv is not none %}
+    <h2>Resultado da Previsão (Convolucional): {{ previsao_conv }}</h2>
+    {% endif %}
+    {% if previsao_linear is not none %}
+    <h2>Resultado da Previsão (Linear): {{ previsao_linear }}</h2>
+    {% endif %}
+</body>
+</html>
